@@ -1,0 +1,74 @@
+/* =========================
+   WeatherGPT - Global Styles
+   ========================= */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root Variables */
+:root {
+  --primary: #2563eb;
+  --secondary: #38bdf8;
+
+  --background: #f8fafc;
+  --surface: #ffffff;
+
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+
+  --border: #e2e8f0;
+
+  --success: #16a34a;
+  --warning: #f59e0b;
+  --danger: #dc2626;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  --transition: 0.3s ease;
+}
+
+/* Base Body */
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Buttons and Inputs */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Button */
+button {
+  cursor: pointer;
+  border: none;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}
